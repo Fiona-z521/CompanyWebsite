@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:gold;
+    font-family: 'Metal Mania', cursive;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid darkmagenta;
+}
+
+li:hover {
+    background-color: darkslateblue;
+}
+.navlinks {
+    background-color: darkseagreen;
+    color:darkred;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("images/image_banner.jpg");
+    padding: 50px 0;
+    background-size: cover;
+    text-align: center;
+    color:orange;
+}
+
+h2 {
+    text-align: center;
+    color: teal;
+    background-color: orangered;
+}
+
+.introduction{
+    text-align: center;
+    color: seagreen;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 400px;
+    height:300px;
+}
+
+.ourgames {
+    text-align: center;
+    margin: 32px;
+}
+
+.games {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;     
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+    }
+
+    .game { 
+        width: 33%;
+        vertical-align: top;
+    }
+}
